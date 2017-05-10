@@ -18,8 +18,8 @@ resource "aws_db_instance" "default" {
   multi_az               = "true"
       tags {
         Name = "Rancher-Server"
-        Deployment = "Prod"
+        Deployment = "PreProd"
         Component = "Rancher"
-        Project = "PGE"
+        Project = "Test"
     }
 }
