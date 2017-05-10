@@ -1,0 +1,7 @@
+#!/bin/bash
+#Update pakage
+sudo yum update -y
+#Installing Docker
+sudo yum install -y docker
+sudo service docker start
+sleep 3
